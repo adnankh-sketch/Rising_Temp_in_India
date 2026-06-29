@@ -1,0 +1,78 @@
+<svg viewBox="0 0 1100 140" xmlns="http://www.w3.org/2000/svg" width="1100" height="140">
+  <defs>
+    <linearGradient id="heat" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#FF4757;stop-opacity:0.15"/>
+      <stop offset="100%" style="stop-color:#FF6B35;stop-opacity:0.05"/>
+    </linearGradient>
+    <linearGradient id="cold" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#3498DB;stop-opacity:0.15"/>
+      <stop offset="100%" style="stop-color:#74B9FF;stop-opacity:0.05"/>
+    </linearGradient>
+    <linearGradient id="gold" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#F7B731;stop-opacity:0.15"/>
+      <stop offset="100%" style="stop-color:#F7B731;stop-opacity:0.05"/>
+    </linearGradient>
+    <linearGradient id="purple" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#A29BFE;stop-opacity:0.15"/>
+      <stop offset="100%" style="stop-color:#A29BFE;stop-opacity:0.05"/>
+    </linearGradient>
+    <linearGradient id="teal" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#55EFC4;stop-opacity:0.15"/>
+      <stop offset="100%" style="stop-color:#55EFC4;stop-opacity:0.05"/>
+    </linearGradient>
+    <linearGradient id="pink" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#FD79A8;stop-opacity:0.15"/>
+      <stop offset="100%" style="stop-color:#FD79A8;stop-opacity:0.05"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1100" height="140" rx="12" fill="#0A1628"/>
+
+  <!-- Card 1: Hottest City -->
+  <rect x="12" y="12" width="162" height="116" rx="10" fill="url(#heat)" stroke="#FF6B35" stroke-width="1.5"/>
+  <text x="93" y="40" font-family="'Segoe UI', sans-serif" font-size="22" text-anchor="middle">🔥</text>
+  <text x="93" y="64" font-family="'Segoe UI', sans-serif" font-size="10" fill="#FF8C50" text-anchor="middle" letter-spacing="0.8">HOTTEST CITY</text>
+  <text x="93" y="86" font-family="'Segoe UI', sans-serif" font-size="14" font-weight="700" fill="#FFFFFF" text-anchor="middle">Tiruchirappalli</text>
+  <text x="93" y="104" font-family="'Segoe UI', sans-serif" font-size="12" fill="#F7B731" text-anchor="middle">34.8°C avg max</text>
+  <text x="93" y="120" font-family="'Segoe UI', sans-serif" font-size="10" fill="#4A6080" text-anchor="middle">Tamil Nadu</text>
+
+  <!-- Card 2: Max Temp -->
+  <rect x="184" y="12" width="162" height="116" rx="10" fill="url(#heat)" stroke="#FF4757" stroke-width="1.5"/>
+  <text x="265" y="40" font-family="'Segoe UI', sans-serif" font-size="22" text-anchor="middle">🌡️</text>
+  <text x="265" y="64" font-family="'Segoe UI', sans-serif" font-size="10" fill="#FF6B81" text-anchor="middle" letter-spacing="0.8">MAX TEMPERATURE</text>
+  <text x="265" y="92" font-family="'Segoe UI', sans-serif" font-size="28" font-weight="800" fill="#FF4757" text-anchor="middle">36.9°C</text>
+  <text x="265" y="112" font-family="'Segoe UI', sans-serif" font-size="10" fill="#8DA6C8" text-anchor="middle">National avg peak</text>
+  <text x="265" y="124" font-family="'Segoe UI', sans-serif" font-size="10" fill="#4A6080" text-anchor="middle">(May average)</text>
+
+  <!-- Card 3: Min Temp -->
+  <rect x="356" y="12" width="162" height="116" rx="10" fill="url(#cold)" stroke="#74B9FF" stroke-width="1.5"/>
+  <text x="437" y="40" font-family="'Segoe UI', sans-serif" font-size="22" text-anchor="middle">❄️</text>
+  <text x="437" y="64" font-family="'Segoe UI', sans-serif" font-size="10" fill="#74B9FF" text-anchor="middle" letter-spacing="0.8">MIN TEMPERATURE</text>
+  <text x="437" y="92" font-family="'Segoe UI', sans-serif" font-size="28" font-weight="800" fill="#74B9FF" text-anchor="middle">8.3°C</text>
+  <text x="437" y="112" font-family="'Segoe UI', sans-serif" font-size="10" fill="#8DA6C8" text-anchor="middle">Srinagar (Jan avg)</text>
+  <text x="437" y="124" font-family="'Segoe UI', sans-serif" font-size="10" fill="#4A6080" text-anchor="middle">Coldest city</text>
+
+  <!-- Card 4: Avg Temp -->
+  <rect x="528" y="12" width="162" height="116" rx="10" fill="url(#teal)" stroke="#55EFC4" stroke-width="1.5"/>
+  <text x="609" y="40" font-family="'Segoe UI', sans-serif" font-size="22" text-anchor="middle">🌤️</text>
+  <text x="609" y="64" font-family="'Segoe UI', sans-serif" font-size="10" fill="#55EFC4" text-anchor="middle" letter-spacing="0.8">AVG TEMPERATURE</text>
+  <text x="609" y="92" font-family="'Segoe UI', sans-serif" font-size="28" font-weight="800" fill="#55EFC4" text-anchor="middle">31.7°C</text>
+  <text x="609" y="112" font-family="'Segoe UI', sans-serif" font-size="10" fill="#8DA6C8" text-anchor="middle">All-India avg max</text>
+  <text x="609" y="124" font-family="'Segoe UI', sans-serif" font-size="10" fill="#4A6080" text-anchor="middle">96 cities · 6 years</text>
+
+  <!-- Card 5: Warmest Month -->
+  <rect x="700" y="12" width="162" height="116" rx="10" fill="url(#gold)" stroke="#F7B731" stroke-width="1.5"/>
+  <text x="781" y="40" font-family="'Segoe UI', sans-serif" font-size="22" text-anchor="middle">☀️</text>
+  <text x="781" y="64" font-family="'Segoe UI', sans-serif" font-size="10" fill="#F7B731" text-anchor="middle" letter-spacing="0.8">WARMEST MONTH</text>
+  <text x="781" y="92" font-family="'Segoe UI', sans-serif" font-size="30" font-weight="800" fill="#F7B731" text-anchor="middle">May</text>
+  <text x="781" y="112" font-family="'Segoe UI', sans-serif" font-size="10" fill="#8DA6C8" text-anchor="middle">Pre-monsoon peak</text>
+  <text x="781" y="124" font-family="'Segoe UI', sans-serif" font-size="10" fill="#4A6080" text-anchor="middle">36.9°C avg max</text>
+
+  <!-- Card 6: Records -->
+  <rect x="872" y="12" width="216" height="116" rx="10" fill="url(#purple)" stroke="#A29BFE" stroke-width="1.5"/>
+  <text x="980" y="40" font-family="'Segoe UI', sans-serif" font-size="22" text-anchor="middle">📊</text>
+  <text x="980" y="64" font-family="'Segoe UI', sans-serif" font-size="10" fill="#A29BFE" text-anchor="middle" letter-spacing="0.8">DATASET SIZE</text>
+  <text x="980" y="92" font-family="'Segoe UI', sans-serif" font-size="30" font-weight="800" fill="#A29BFE" text-anchor="middle">7,056</text>
+  <text x="980" y="112" font-family="'Segoe UI', sans-serif" font-size="10" fill="#8DA6C8" text-anchor="middle">Monthly records</text>
+  <text x="980" y="124" font-family="'Segoe UI', sans-serif" font-size="10" fill="#4A6080" text-anchor="middle">96 cities · 72 months</text>
+</svg>

@@ -1,0 +1,89 @@
+<svg viewBox="0 0 900 320" xmlns="http://www.w3.org/2000/svg" width="900" height="320">
+  <defs>
+    <linearGradient id="bar1" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#FF4757"/>
+      <stop offset="100%" style="stop-color:#FF6B35"/>
+    </linearGradient>
+    <linearGradient id="bar2" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#FF6B35"/>
+      <stop offset="100%" style="stop-color:#FF8C50"/>
+    </linearGradient>
+    <linearGradient id="bar3" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#FF8C50"/>
+      <stop offset="100%" style="stop-color:#FFA070"/>
+    </linearGradient>
+    <linearGradient id="bar4" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#FFA070"/>
+      <stop offset="100%" style="stop-color:#FFB88C"/>
+    </linearGradient>
+    <linearGradient id="bar5" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#FFB88C"/>
+      <stop offset="100%" style="stop-color:#F7D794"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="900" height="320" rx="12" fill="#0A1628"/>
+
+  <!-- Title -->
+  <text x="40" y="40" font-family="'Segoe UI', system-ui, sans-serif" font-size="18" font-weight="700" fill="#FFFFFF">Top 5 Hottest Cities — Average Maximum Temperature (°C)</text>
+  <text x="40" y="62" font-family="'Segoe UI', sans-serif" font-size="12" fill="#8DA6C8">Based on 2020–2025 monthly observations</text>
+
+  <!-- City 1: Tiruchirappalli -->
+  <g transform="translate(40, 82)">
+    <text x="0" y="18" font-family="'Segoe UI', sans-serif" font-size="13" fill="#8DA6C8">Tiruchirappalli</text>
+    <rect x="170" y="2" width="580" height="26" rx="5" fill="url(#bar1)"/>
+    <text x="758" y="20" font-family="'Segoe UI', sans-serif" font-size="14" font-weight="700" fill="#F7B731">34.80°C</text>
+    <rect x="170" y="0" width="580" height="3" rx="1" fill="#FF8C50" opacity="0.4"/>
+    <text x="175" y="20" font-family="'Segoe UI', sans-serif" font-size="10" fill="#0A1628" opacity="0.8" font-weight="600">🏆 HOTTEST</text>
+  </g>
+
+  <!-- City 2: Ahmedabad -->
+  <g transform="translate(40, 124)">
+    <text x="0" y="18" font-family="'Segoe UI', sans-serif" font-size="13" fill="#8DA6C8">Ahmedabad</text>
+    <rect x="170" y="2" width="560" height="26" rx="5" fill="url(#bar2)"/>
+    <text x="738" y="20" font-family="'Segoe UI', sans-serif" font-size="14" font-weight="700" fill="#F7B731">34.43°C</text>
+    <text x="175" y="20" font-family="'Segoe UI', sans-serif" font-size="10" fill="#0A1628" opacity="0.8">Gujarat</text>
+  </g>
+
+  <!-- City 3: Madurai -->
+  <g transform="translate(40, 166)">
+    <text x="0" y="18" font-family="'Segoe UI', sans-serif" font-size="13" fill="#8DA6C8">Madurai</text>
+    <rect x="170" y="2" width="558" height="26" rx="5" fill="url(#bar3)"/>
+    <text x="736" y="20" font-family="'Segoe UI', sans-serif" font-size="14" font-weight="700" fill="#F7B731">34.40°C</text>
+    <text x="175" y="20" font-family="'Segoe UI', sans-serif" font-size="10" fill="#0A1628" opacity="0.8">Tamil Nadu</text>
+  </g>
+
+  <!-- City 4: Bikaner -->
+  <g transform="translate(40, 208)">
+    <text x="0" y="18" font-family="'Segoe UI', sans-serif" font-size="13" fill="#8DA6C8">Bikaner</text>
+    <rect x="170" y="2" width="540" height="26" rx="5" fill="url(#bar4)"/>
+    <text x="718" y="20" font-family="'Segoe UI', sans-serif" font-size="14" font-weight="700" fill="#F7B731">34.23°C</text>
+    <text x="175" y="20" font-family="'Segoe UI', sans-serif" font-size="10" fill="#0A1628" opacity="0.8">Rajasthan</text>
+  </g>
+
+  <!-- City 5: Tirunelveli -->
+  <g transform="translate(40, 250)">
+    <text x="0" y="18" font-family="'Segoe UI', sans-serif" font-size="13" fill="#8DA6C8">Tirunelveli</text>
+    <rect x="170" y="2" width="535" height="26" rx="5" fill="url(#bar5)"/>
+    <text x="713" y="20" font-family="'Segoe UI', sans-serif" font-size="14" font-weight="700" fill="#F7B731">34.21°C</text>
+    <text x="175" y="20" font-family="'Segoe UI', sans-serif" font-size="10" fill="#0A1628" opacity="0.8">Tamil Nadu</text>
+  </g>
+
+  <!-- X-axis reference -->
+  <line x1="210" y1="290" x2="750" y2="290" stroke="#1E3A5F" stroke-width="1"/>
+  <g font-family="'Segoe UI', sans-serif" font-size="10" fill="#4A6080" text-anchor="middle">
+    <text x="210" y="305">32°C</text>
+    <text x="345" y="305">33°C</text>
+    <text x="480" y="305">34°C</text>
+    <text x="615" y="305">35°C</text>
+    <text x="750" y="305">36°C</text>
+  </g>
+  <!-- X-axis ticks -->
+  <g stroke="#1E3A5F" stroke-width="0.5">
+    <line x1="210" y1="286" x2="210" y2="292"/>
+    <line x1="345" y1="286" x2="345" y2="292"/>
+    <line x1="480" y1="286" x2="480" y2="292"/>
+    <line x1="615" y1="286" x2="615" y2="292"/>
+    <line x1="750" y1="286" x2="750" y2="292"/>
+  </g>
+</svg>
